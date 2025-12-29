@@ -10,10 +10,10 @@ from shared.db import GroupDB
 BOT_TOKEN = "8584329291:AAGi9ST0DMU3Ar_fdE6GKI5EV9-Qk6qzypE"
 
 # Windows + Clash（如需要）
-apihelper.proxy = {
-    "http": "http://127.0.0.1:7899",
-    "https": "http://127.0.0.1:7899",
-}
+# apihelper.proxy = {
+#     "http": "http://127.0.0.1:7899",
+#     "https": "http://127.0.0.1:7899",
+# }
 
 bot = TeleBot(BOT_TOKEN)
 db = GroupDB()
