@@ -6,10 +6,10 @@ from shared.db import GroupDB
 from .handlers import register
 
 # 👉 Windows + Clash 代理（你现在一定要加）
-apihelper.proxy = {
-    'http': 'http://127.0.0.1:7899',
-    'https': 'http://127.0.0.1:7899'
-}
+# apihelper.proxy = {
+#     'http': 'http://127.0.0.1:7899',
+#     'https': 'http://127.0.0.1:7899'
+# }
 
 cfg = get_config()
 bot = TeleBot(cfg["BOT_TOKEN"])
