@@ -11,4 +11,6 @@ def get_config():
         "GROUP_URL": os.getenv("GROUP_URL"),
         "CHANNEL_URL": os.getenv("CHANNEL_URL"),
         "SUPPORT_URL": os.getenv("SUPPORT_URL"),
+        "SUPPORT_URL_1": os.getenv("SUPPORT_URL_1"),
+        "SUPPORT_URL_2": os.getenv("SUPPORT_URL_2"),
     }
